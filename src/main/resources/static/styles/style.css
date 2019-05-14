@@ -1,0 +1,279 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Sep 24, 2018, 11:21:57 PM
+    Author     : Hunter
+*/
+
+/* ============================= BODY / GENERAL ============================= */
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1em;
+}
+
+body a {
+    color: #00703c;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.code {
+    font-size: 1.2em;
+    padding: 3px 5px;
+    background-color: #eee;
+}
+
+.content {
+    width: auto;
+    padding: 0 25px;
+    overflow: hidden;
+}
+
+.content ul li a {
+    text-decoration: underline;
+}
+
+.content ul li {
+    margin: 10px 0;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.center-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.reg_text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.left { float: left; }
+.right { float:right; }
+.clear { clear: both; }
+.blue-text { color:#0962c1; }
+.pointer { cursor: pointer; }
+
+/* ================================= HEADER ================================= */
+header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.display_name {
+    margin: 0 10px 0 0;
+    float: right;
+}
+
+/* ================================ USER NAV ================================ */
+.user-navigation {
+    margin-top: 3px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.user-navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+/* ================================ SITE NAV ================================ */
+.site-navigation {
+    margin: 3px 0;
+    width: 200px;
+    height: 70vh;
+    padding: 15px 0;
+    float: left;
+    clear: both;
+    border: 1px solid black;
+}
+
+.site-navigation ul li {
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.site-navigation ul li a{
+    text-decoration: none;
+}
+
+
+/* =================================== ITEM ================================= */
+.back-button {
+    float: left;
+    color: black;
+    background-color: #ddd;
+}
+
+.action-button {
+    margin-right: 4px;
+    margin-left: 4px;
+    float:right;
+    font-size:1em;
+    color: black;
+    /*background-color: #4CAF50;*/
+}
+
+.imgContainer {
+    display: inline-block;
+}
+
+.imgContainer img {
+    margin-bottom: 15px;
+}
+
+
+/* ================================= FEEDBACK =============================== */
+.submit input[type=submit]:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* ================================== FOOTER ================================ */
+footer {
+    width: 100%;
+    clear: both;
+    border: 1px solid black;
+}
+
+footer p {
+    padding-left: 20px;
+}
+
+
+/* =========================== MY ITEMS / MY RATED ========================== */
+.table_title h1 {
+    display: inline-block;
+    float:left;
+    margin-top:0;
+}
+
+.table_title form {
+    display:inline-block;
+    float:right;
+    margin-top:10px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Table headings */
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Table rows (even rows only) */
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+/* Table cells */
+td { padding-top: 10px; border-spacing: 0; text-align: center; }
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    max-height: 100px;
+}
+
+/*table th:nth-child(1), table td:nth-child(1) {
+    width: 160px;
+}*/
+
+.table-img {
+    width: 160px;
+}
+
+table a {
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.red:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.green:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.blue:hover {
+    background-color: #0099ff;
+    color: white;
+}
+
+
+/* =============================== LOGIN PAGE =============================== */
+.login_form {
+    display: inline-block;
+}
+
+.login_form a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: .8em;
+}
+
+.login_form input[type=submit] {
+    background: #00703c;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: .8em;
+    margin: 20px 0 10px 0;
+    padding: 10px 0;
+    width: 262px;
+}
+
+.login_form input[type=text], .login_form input[type=email], .login_form input[type=password] {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+    outline: none;
+    padding: 10px 0 10px 10px;
+    width: 250px;
+}
+
